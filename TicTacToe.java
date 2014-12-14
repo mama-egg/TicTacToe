@@ -1,13 +1,19 @@
 import java.util.*;
 public class TicTacToe {
     public static void main(String[] args) {
-        //create board
-
-        // initialize board
         
-        // create utilities: scanner, numTurns, player, winner
+        int[][] grid = new int[3][3]; //create board
+        
+        InitBoard(board); //initialize board
+        
+        Scanner scan = new Scanner(System.in); //create Scanner scan
+        
+        int numTurns = 0;//create int numTurns to represent number of turns
+        int player = -1; //create int player
+        int winner = 0; //create int winner
         
         // create main playing loop
+        for()
             
             // create control value validMove to check for valid move and retry if not
             
@@ -34,7 +40,7 @@ public class TicTacToe {
         input.close();
     }
     
-    public static void InitBaord(int[][] grid) {
+    public static void InitBoard(int[][] grid) {
        
     }
     
